@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+  <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img src="/images/myself.png" alt="myself"></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a class="nav-link" href="index.html">Início</a></li>
+          <li><a class="nav-link" href="sobre.html">About</a></li>
+          <li><a class="nav-link" href="projetos.html">Projects</a></li>
+          <li><a class="nav-link" href="contatos.html">Contact</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img class="img-fluid img-responsive carousel-img"
+          src="https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+          alt="Imagem 1">
+        <div class="carousel-caption">
+          <h3>Este é meu site</h3>
+          <p>para o processo seletivo</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img class="img-fluid img-responsive carousel-img"
+          src="https://images.unsplash.com/photo-1484807352052-23338990c6c6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+          alt="Imagem 2">
+        <div class="carousel-caption">
+          <h3>Me chamo Rafael</h3>
+          <p>e estou iniciando no desenvolvimento web</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <div class="container-fluid text-center">
+    <h3>Título da Página</h3><br>
+    <div class="row">
+      <div class="col-sm-4 row-content justify-content-end" height="100%">
+        <img
+          src="https://images.unsplash.com/photo-1511376777868-611b54f68947?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+          class="img-responsive img-fluid rounded mx-auto d-block" style="width:100%" alt="Image">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, dolores beatae reprehenderit quis fuga fugit hic
+          non iste architecto totam inventore,
+          voluptas unde in dicta eum veniam explicabo expedita rerum asperiores porro sunt. Nesciunt, autem?
+        </p>
+      </div>
+      <div class="col-sm-4 row-content">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Praesentium vero enim necessitatibus tenetur porro ipsam sint rerum ducimus itaque non beatae voluptate,
+          reprehenderit possimus eveniet voluptatem recusandae,
+          consequatur ea error.
+        </p>
+        <img
+          src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=749&q=80"
+          class="img-responsive img-fluid rounded mx-auto d-block" style="width:100%" alt="Image">
+      </div>
+      <div class="col-sm-4 row-content">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, in?
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque excepturi est distinctio laborum, alias
+          voluptatem natus.
+          Rem porro labore voluptates blanditiis optio eveniet ducimus maxime eligendi. Assumenda nisi reiciendis hic?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Consequuntur dicta at ut placeat ratione cumque cum aspernatur quis modi nihil eveniet harum esse quos
+          expedita eligendi incidunt illo libero porro eius fugit explicabo,
+          vitae tenetur delectus! Placeat esse consequuntur repellat.
+          Laborum non modi reprehenderit dignissimos nobis id, esse quidem! Officiis!
+        </p>
+        <img
+          src="https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=889&q=80"
+          class="img-responsive img-fluid rounded mx-auto d-block" alt="">
+      </div>
+    </div>
+  </div><br>
+
+  <footer class="jumbotron-fluid text-center">
+    <a href="https://github.com/RafaelC4rdoso/" target="_blank"><i class="bi-github" role="img" aria-label="GitHub"></i></a>
+    <a href="https://www.instagram.com/rafaelcardoso_santos/" target="_blank"><i class="bi-instagram" role="img" aria-label="Instagram"></i></a>
+    <a href="https://www.linkedin.com/in/rafael-cardoso-dos-santos-119423204/" target="_blank"><i class="bi-linkedin" role="img" aria-label="LinkedIn"></i></a>
+  </footer>
+
+</body>
+
+</html>
