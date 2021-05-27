@@ -17,6 +17,10 @@ h3{
   font-weight: 600;
 }
 
+img{
+  border-radius: 10px;
+}
+
 .navbar-nav {
     padding: 10px !important;
 }
@@ -25,6 +29,10 @@ h3{
   object-fit: cover !important;
   height: 300px !important;
  
+}
+
+.tituloPag{
+  color: rgb(80, 80, 80);
 }
 
 .row-content {
